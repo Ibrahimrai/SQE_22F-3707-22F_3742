@@ -1,0 +1,84 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-feature;user-logs-into-the-application-successfully",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User logs into the application successfully",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "tests\\step-definitions\\login.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3398393200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I fill in the username and password",
+            "match": {
+              "location": "tests\\step-definitions\\login.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 128560199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click the login button",
+            "match": {
+              "location": "tests\\step-definitions\\login.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1400733800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see the dashboard page",
+            "match": {
+              "location": "tests\\step-definitions\\login.steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 132609400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 696000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login Feature",
+    "tags": [],
+    "uri": "tests\\features\\login.feature"
+  }
+]
